@@ -15,7 +15,6 @@ public class Main implements ActionListener {
         f.setSize(400,350);
         f.setLayout(null);
         f.setBackground(Color.orange);
-        f.setVisible(true);
 
         mb=new MenuBar();
         m=new Menu("Menu");
@@ -66,6 +65,8 @@ public class Main implements ActionListener {
         credits.setAlignment(0);
         credits.setBounds(10, 320, 150, 30);
         f.add(credits);
+
+        f.setVisible(true);
 
         signup.addActionListener(this);
         login.addActionListener(this);
